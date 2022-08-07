@@ -2,12 +2,18 @@
 
 # dependencies
 node_modules/
+.flutter-plugins-dependencies
+.packages 
+# Can be removed after Dart 2.17
 
 # testing
 /coverage
 
 # production
 build/
+.dart_tool/
+pubspec.lock  
+# Except for application packages
 
 # misc
 .DS_Store
